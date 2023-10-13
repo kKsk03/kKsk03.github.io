@@ -141,7 +141,6 @@ export default {
 ## GitHub 自动部署
 
 在 `.github/workflows/deploy.yml` 文件中  
-其中，`fetch-depth` 的值，若启用最后更新时间戳的话，需要设定为1，不启用则设定0  
 
 ```yml
 name: Deploy
@@ -168,7 +167,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # lastUpdated
+          fetch-depth: 0
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
@@ -198,4 +197,18 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+```
+
+注意：如果在 `config.js` 中启用了 `lastUpdated` 的话，需要将其中的 `fetch-depth` 调整为1  
+
+```js
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 // [!code focus]
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: yarn
 ```
