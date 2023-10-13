@@ -61,7 +61,14 @@ export default {
                     text: 'VitePress',
                     collapsed: false,
                     items: [
-                        { text: 'VitePress的部署', link: '/web/vitepress/vitepress_deploy' },
+                        { 
+                            text: 'VitePress的部署',
+                            items: [
+                                { text: '初始化与部署', link: '/web/vitepress/vitepress_deploy' },
+                                { text: '导航栏配置', link: '/web/vitepress/nav' },
+                                { text: '侧边栏配置', link: '/web/vitepress/sidebar' }
+                            ]
+                        },
                         { text: 'VitePress的Markdown示例', link: '/web/vitepress/vitepress_markdown' }
                     ]
                 }
