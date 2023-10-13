@@ -8,7 +8,7 @@ hero:
     actions:
         - theme: brand
           text: 进入Blog
-          link: /navi/navigation
+          link: /code/git/git
         - theme: alt
           text: 关于
 

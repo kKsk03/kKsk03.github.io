@@ -7,6 +7,78 @@ export default {
 
     themeConfig: {
 
+        // 导航栏
+        nav: [
+            { text: '主页', link: '/' },
+            {
+                text: '编程',
+                items: [
+                    {
+                        items: [
+                            { text: '编程语言', link: '/code/git/git' },
+                            { text: '数据库', link: '/database/postgresql/postgresql_install' },
+                            { text: '前端', link: '/web/vitepress/vitepress_deploy' }
+                        ]
+                    }
+                ]
+            },
+            {
+                text: '游戏',
+                items: [
+                    {
+                        items: [
+                            { text: 'Assetto Corsa', link: '/game/ac/encrypt_tool' }
+                        ]
+                    }
+                ]
+            }
+        ],
+
+        // 侧边栏
+        sidebar: {
+            '/code/': [
+                {
+                    text: 'git',
+                    collapsed: false,
+                    items: [
+                        { text: '常用git命令集', link: '/code/git/git' }
+                    ]
+                }
+            ],
+            
+            '/database/': [
+                {
+                    text: 'PostgreSQL',
+                    collapsed: false,
+                    items: [
+                        { text: 'PostgreSQL的安装', link: '/database/postgresql/postgresql_install' }
+                    ]
+                }
+            ],
+
+            '/web/': [
+                {
+                    text: 'VitePress',
+                    collapsed: false,
+                    items: [
+                        { text: 'VitePress的部署', link: '/web/vitepress/vitepress_deploy' },
+                        { text: 'VitePress的Markdown示例', link: '/web/vitepress/vitepress_markdown' }
+                    ]
+                }
+            ],
+
+            '/game/' : [
+                {
+                    text: 'Assetto Corsa',
+                    collapsed: false,
+                    items: [
+                        { text: '模型加密工具', link: '/game/ac/encrypt_tool' },
+                        { text: '地图灯光', link: '/game/ac/csp_maplight' }
+                    ]
+                }
+            ]
+        },
+
         // 页脚
         footer: {
             message: 'Released Under the MIT License.',
