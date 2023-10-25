@@ -13,6 +13,10 @@ hero:
           text: 关于
 
 features:
+  - icon: 🗃
+    title: 云盘索引
+    details: 自己的云盘索引目录......
+    link: https://files.kksk-blog.site/
   - icon: 🔧
     title: 工具
     details: 存放常用工具、代码等......
