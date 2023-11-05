@@ -71,6 +71,13 @@ export default {
                         },
                         { text: 'VitePress的Markdown示例', link: '/web/vitepress/vitepress_markdown' }
                     ]
+                },
+                {
+                    text: '域名',
+                    collapsed: false,
+                    items: [
+                        { text: '域名购买&解析', link: '/web/domain/domain_deploy' }
+                    ]
                 }
             ],
 
