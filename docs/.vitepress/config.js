@@ -89,7 +89,7 @@ export default {
         // 页脚
         footer: {
             message: 'Released Under the MIT License.',
-            copyright: 'Copyright © 2023-Present kKsk'
+            copyright: 'Copyright © 2023-Present <a href=\"https://github.com/kKsk03\" style=\"color: #de4f7a; text-decoration: underline;\" target=blank>kKsk</a>'
         },
 
         // 底部 编辑此文档
