@@ -95,7 +95,7 @@ export default {
 
         // 页脚
         footer: {
-            message: 'Released Under the MIT License.',
+            message: 'Released Under the <a href=\"https://www.apache.org/licenses/LICENSE-2.0\"style=\"color: #de4f7a; text-decoration: underline;\" target=blank>Apache License 2.0</a>.',
             copyright: 'Copyright © 2023-Present <a href=\"https://github.com/kKsk03\" style=\"color: #de4f7a; text-decoration: underline;\" target=blank>kKsk</a>'
         },
 
