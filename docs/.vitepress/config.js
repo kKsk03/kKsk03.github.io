@@ -6,6 +6,7 @@ export default {
     lastUpdated: true,
 
     themeConfig: {
+        logo: 'https://pic.imgdb.cn/item/6569cbfdc458853aef4cd8c1.jpg',
 
         // 导航栏
         nav: [
