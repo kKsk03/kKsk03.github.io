@@ -17,7 +17,8 @@ export default {
                         items: [
                             { text: '编程语言', link: '/code/git/git' },
                             { text: '数据库', link: '/database/postgresql/postgresql_install' },
-                            { text: '前端', link: '/web/vitepress/vitepress_deploy' }
+                            { text: '前端', link: '/web/front_end/vitepress/vitepress_deploy' },
+                            { text: '后端', link: '/web/back_end/node_js/first_deploy' }
                         ]
                     }
                 ]
@@ -56,7 +57,7 @@ export default {
                 }
             ],
 
-            '/web/': [
+            '/web/front_end/': [
                 {
                     text: 'VitePress',
                     collapsed: false,
@@ -64,19 +65,29 @@ export default {
                         { 
                             text: 'VitePress的部署',
                             items: [
-                                { text: '初始化与部署', link: '/web/vitepress/vitepress_deploy' },
-                                { text: '导航栏配置', link: '/web/vitepress/nav' },
-                                { text: '侧边栏配置', link: '/web/vitepress/sidebar' }
+                                { text: '初始化与部署', link: '/web/front_end/vitepress/vitepress_deploy' },
+                                { text: '导航栏配置', link: '/web/front_end/vitepress/nav' },
+                                { text: '侧边栏配置', link: '/web/front_end/vitepress/sidebar' }
                             ]
                         },
-                        { text: 'VitePress的Markdown示例', link: '/web/vitepress/vitepress_markdown' }
+                        { text: 'VitePress的Markdown示例', link: '/web/front_end/vitepress/vitepress_markdown' }
                     ]
                 },
                 {
                     text: '域名',
                     collapsed: false,
                     items: [
-                        { text: '域名购买&解析', link: '/web/domain/domain_deploy' }
+                        { text: '域名购买&解析', link: '/web/front_end/domain/domain_deploy' }
+                    ]
+                }
+            ],
+
+            '/web/back_end/': [
+                {
+                    text: 'Node.js',
+                    collapsed: false,
+                    items: [
+                        { text: 'Node.js使用框架快速搭建', link: '/web/back_end/node_js/first_deploy' }
                     ]
                 }
             ],
