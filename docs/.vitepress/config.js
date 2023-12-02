@@ -19,7 +19,8 @@ export default {
                             { text: '编程语言', link: '/code/git/git' },
                             { text: '数据库', link: '/database/postgresql/postgresql_install' },
                             { text: '前端', link: '/web/front_end/vitepress/vitepress_deploy' },
-                            { text: '后端', link: '/web/back_end/node_js/first_deploy' }
+                            { text: '后端', link: '/web/back_end/node_js/first_deploy' },
+                            { text: '服务器', link: '/server/bt/alist_install' }
                         ]
                     }
                 ]
@@ -89,6 +90,17 @@ export default {
                     collapsed: false,
                     items: [
                         { text: 'Node.js使用框架快速搭建', link: '/web/back_end/node_js/first_deploy' }
+                    ]
+                }
+            ],
+
+            '/server/': [
+                {
+                    text: '宝塔面板',
+                    collapsed: false,
+                    items: [
+                        { text: '在宝塔面板使用Docker安装Alist', link: '/server/bt/alist_install' },
+                        { text: '宝塔面板常用指令', link: '/server/bt/bt_command' }
                     ]
                 }
             ],
