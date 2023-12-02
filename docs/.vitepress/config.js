@@ -5,6 +5,10 @@ export default {
     description: 'A Technology Blog',
     lastUpdated: true,
 
+    head: [
+        [ 'link', { rel: 'icon', href: 'https://pic.imgdb.cn/item/6569cbfdc458853aef4cd8c1.jpg' } ]
+    ],
+
     themeConfig: {
         logo: 'https://pic.imgdb.cn/item/6569cbfdc458853aef4cd8c1.jpg',
 
