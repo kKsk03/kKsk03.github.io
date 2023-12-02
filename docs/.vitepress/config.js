@@ -20,11 +20,10 @@ export default {
                 items: [
                     {
                         items: [
-                            { text: '编程语言', link: '/code/git/git' },
-                            { text: '数据库', link: '/database/postgresql/postgresql_install' },
                             { text: '前端', link: '/web/front_end/vitepress/vitepress_deploy' },
                             { text: '后端', link: '/web/back_end/node_js/first_deploy' },
-                            { text: '服务器', link: '/server/bt/alist_install' }
+                            { text: '服务器', link: '/server/bt/alist_install' },
+                            { text: '数据库', link: '/database/postgresql/postgresql_install' }
                         ]
                     }
                 ]
@@ -38,20 +37,12 @@ export default {
                         ]
                     }
                 ]
-            }
+            },
+            { text: '关于', link: '/about' }
         ],
 
         // 侧边栏
         sidebar: {
-            '/code/': [
-                {
-                    text: 'git',
-                    collapsed: false,
-                    items: [
-                        { text: '常用git命令集', link: '/code/git/git' }
-                    ]
-                }
-            ],
             
             '/database/': [
                 {

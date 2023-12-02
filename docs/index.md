@@ -8,9 +8,10 @@ hero:
     actions:
         - theme: brand
           text: 进入Blog
-          link: /code/git/git
+          link: /web/front_end/vitepress/vitepress_deploy
         - theme: alt
           text: 关于
+          link: /about
 
 features:
   - icon: 🗃
