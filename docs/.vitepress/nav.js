@@ -12,6 +12,7 @@ export const nav = [
         }
       ]
     },
+    { text: '游戏', link: '/game/open-vpn-net' },
     { text: '关于', link: '/about' }
 ];
   

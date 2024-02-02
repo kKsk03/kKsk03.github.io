@@ -51,5 +51,9 @@ export const sidebar = {
                 { text: 'PM2基本安装与使用', link: '/server/often/pm2' }
             ]
         }
+    ],
+
+    '/game/': [
+        { text: 'OpenVPN搭建虚拟局域网', link: '/game/open-vpn-net' }
     ]
 }
