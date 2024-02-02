@@ -3,7 +3,7 @@ layout: home
 
 hero: 
     name: kKsk's Blog
-    text: 事一个一个技术存放地
+    text: 一个一个技术存放地
     tagline: 1145141919810
     actions:
         - theme: brand
