@@ -13,7 +13,8 @@ export const sidebar = {
                         { text: '侧边栏配置', link: '/web/front_end/vitepress/sidebar' }
                     ]
                 },
-                { text: 'VitePress的Markdown示例', link: '/web/front_end/vitepress/vitepress_markdown' }
+                { text: 'VitePress的Markdown示例', link: '/web/front_end/vitepress/vitepress_markdown' },
+                { text: 'VitePress安装Medium-Zoom', link: '/web/front_end/vitepress/vitepress_medium_zoom' },
             ]
         },
         {
