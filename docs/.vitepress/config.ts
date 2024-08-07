@@ -10,6 +10,11 @@ export default defineConfig({
     head: [
         [ 'link', { rel: 'icon', href: 'https://files.superbed.cn/static/images/06/38/66b391d6d9c307b7e9960638.jpg' } ]
     ],
+    markdown: {
+        image: {
+            lazyLoading: true
+        }
+    },
     themeConfig: {
         logo: 'https://files.superbed.cn/static/images/06/38/66b391d6d9c307b7e9960638.jpg',
         nav: navbar, // 导航栏

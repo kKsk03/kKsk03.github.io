@@ -3,6 +3,5 @@ export const navbar = [
     { text: '导航', link: '/navi/' },
     { text: '前端', link: '/frontEnd/' },
     { text: '后端', link: '/backEnd/' },
-    { text: '游戏', link: '/game/' },
-    { text: '关于', link: '/about' }
+    { text: '游戏', link: '/game/wmmt/meters' }
 ]

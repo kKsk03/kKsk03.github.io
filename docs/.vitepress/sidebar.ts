@@ -1,9 +1,9 @@
 export const sidebar = {
-    '/frontEnd/': [
+    '/game/': [
         {
-            text: 'Vue.js',
+            text: 'WMMT',
             items: [
-                { text: 'VitePress', link: '/frontEnd/VitePress/' }
+                { text: '比赛用仪表对照', link: '/game/wmmt/meters' }
             ]
         }
     ]
