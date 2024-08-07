@@ -1,7 +1,7 @@
 export const sidebar = {
     '/frontEnd/': [
         {
-            text: '前端',
+            text: 'Vue.js',
             items: [
                 { text: 'VitePress', link: '/frontEnd/VitePress/' }
             ]
