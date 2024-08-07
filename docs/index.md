@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 导航
-      link: /navi
+      link: /navi/
     - theme: alt
       text: 关于
       link: /about
