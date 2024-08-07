@@ -60,8 +60,8 @@ title: 比赛用仪表对照
 | **42** | 绯红救赎表    | ![](https://pic.imgdb.cn/item/66b3a564d9c307b7e9c3bf55.png) | 隐藏车收集活动获取          |
 | **43** | 第一届甲子园金表 | ![](https://pic.imgdb.cn/item/66b3a564d9c307b7e9c3bf26.png) | 甲子园冠军奖励            |
 | **44** | 第一届甲子园银表 | ![](https://pic.imgdb.cn/item/66b3a564d9c307b7e9c3bf73.png) | 甲子园亚军奖励            |
-| **45** | 第二届甲子园金表 | ![](https://pic.imgdb.cn/item/66b3a56ad9c307b7e9c3c7a0.png) | 甲子园冠军奖励            |
+| **45** | 第二届甲子园金表 | ![](https://pic.imgdb.cn/item/66b3a564d9c307b7e9c3bf26.png) | 甲子园冠军奖励            |
 | **46** | 第二届甲子园银表 | ![](https://pic.imgdb.cn/item/66b3a564d9c307b7e9c3bf73.png) | 甲子园亚军奖励            |
-| **47** | 第三届甲子园金表 | ![](https://pic.imgdb.cn/item/66b3a56ad9c307b7e9c3c7a0.png) | 甲子园冠军奖励            |
+| **47** | 第三届甲子园金表 | ![](https://pic.imgdb.cn/item/66b3a564d9c307b7e9c3bf26.png) | 甲子园冠军奖励            |
 | **48** | 第三届甲子园银表 | ![](https://pic.imgdb.cn/item/66b3a564d9c307b7e9c3bf73.png) | 甲子园亚军奖励            |
 | **49** | 像素南梦宫白表  | ![](https://pic.imgdb.cn/item/66b3a56ad9c307b7e9c3c7a0.png) | 官方“限时里程获取活动”活动获取   |
