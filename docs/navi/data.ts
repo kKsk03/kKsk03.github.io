@@ -74,13 +74,6 @@ export const NAV_DATA: NavData[] = [
                 link: 'https://nonebot.dev/',
                 badge: '开源'
             },
-            {
-                icon: 'https://nonebot.dev/logo.png',
-                title: 'Nonebot',
-                desc: 'Nonebot中文文档',
-                link: 'https://nonebot.dev/',
-                badge: '开源'
-            },
         ]
     }
 ]
