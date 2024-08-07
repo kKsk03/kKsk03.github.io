@@ -7,6 +7,9 @@ export default defineConfig({
     title: "kKsk's Blog",
     description: "Debugging......",
     cleanUrls: true,
+    head: [
+        [ 'link', { rel: 'icon', href: 'https://files.superbed.cn/static/images/06/38/66b391d6d9c307b7e9960638.jpg' } ]
+    ],
     themeConfig: {
         logo: 'https://files.superbed.cn/static/images/06/38/66b391d6d9c307b7e9960638.jpg',
         nav: navbar, // 导航栏
