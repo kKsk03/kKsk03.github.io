@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 import { navBar } from './navbar'
 import { sideBar } from './sidebar'
 
-const isBuild = process.env.VITE_ENV === 'build';
+// @ts-ignore 不加老是报错
+const isBuild = process.env.NODE_ENV === 'production';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({

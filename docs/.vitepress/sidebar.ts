@@ -3,6 +3,7 @@ export const sideBar = {
         {
             text: "常用工具",
             items: [
+                { text: "Windows 激活", link: "/common/tools/windows-activate" }
             ]
         },
         {
