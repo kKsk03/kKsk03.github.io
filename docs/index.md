@@ -18,7 +18,7 @@ features:
   - icon: 🗂️
     title: kKsk's File Site
     details: 自己搭建的文件站，用来快速下载自己天翼云盘上的文件
-    link: https://files.kksk03.fun/
+    link: https://files.kksk03.site/
     linkText: 文件站
   - icon: 🧭
     title: 导航
