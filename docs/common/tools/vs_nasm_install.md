@@ -44,7 +44,7 @@ outline: deep
 4. 进入 `配置属性` ==> `自定义生成工具` ==> `常规`  
 5. 将 `命令行` 设定为：
 
-    `<route to nasm.exe> -f win64 <route to asm file> -o`  
+    `<route to nasm.exe> -f win64 <route to asm file> -o <asm file name>.asm.obj`  
 
 6. 将 `输出` 设定为：  
 
