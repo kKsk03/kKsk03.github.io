@@ -12,7 +12,8 @@ export const sideBar = {
         {
             text: "解决方案",
             items: [
-                { text: "使用 OpenVPN 配置虚拟局域网", link: "/common/solutions/ov_virtual_LAN" }
+                { text: "使用 OpenVPN 配置虚拟局域网", link: "/common/solutions/ov_virtual_LAN" },
+                { text: "首都高赛车 FModel 解包", link: "/common/solutions/txr_unpack" }
             ]
         }
     ]

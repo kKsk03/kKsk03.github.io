@@ -19,6 +19,9 @@ export default defineConfig({
         codeCopyButtonTitle: '复制代码'
     },
     lastUpdated: isBuild,
+    head: [
+        ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined' }]
+    ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         // 导航栏和侧边栏
