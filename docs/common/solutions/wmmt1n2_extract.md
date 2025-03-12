@@ -74,11 +74,11 @@ outline: deep
 ::: tip 提示
 根据版本不同选择不同的DES KEY  
 - WMMT1 Export Rev B [GDX-0009B]: `6B017C54F8B9FEC8`  
-- WMMT1 Japan Rev B [???-?????]: `???`  
+- WMMT1 Japan Rev B [GDX-0008B]: `6B017C54F8B9FEC8`  
 - WMMT2 Export Rev A [GDX-0016A]: `6B017C54F8B9FEC8`  
-- WMMT2 Export [GDX-0016]: `6B017C54F8B9FEC8` （不确定）  
-- WMMT2 Japan Rev A [???-?????]: `???`  
-- WMMT2 Japan [???-?????]: `???`  
+- WMMT2 Export [GDX-0016]: `6B017C54F8B9FEC8`   
+- WMMT2 Japan Rev A [GDX-0015A]: `6B017C54F8B9FEC8`  
+- WMMT2 Japan [GDX-0015]: `6B017C54F8B9FEC8`  
 :::
 
 4. 选择一个合适的文件夹存放 `.dat` 文件，等待解密完毕即可  
