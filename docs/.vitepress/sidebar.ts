@@ -7,6 +7,7 @@ export const sideBar = {
                 { text: "VS NASM 安装", link: "/common/tools/vs_nasm_install" },
                 { text: "PBTK的使用", link: "/common/tools/pbtk_usage" },
                 { text: "protobuf.js 使用", link: "/common/tools/protobufjs_usage" },
+                { text: "Vegas Pro 22 安装", link: "/common/tools/vegas_pro_22_install" },
             ]
         },
         {
