@@ -17,6 +17,13 @@ export const sideBar = {
                 { text: "首都高赛车 FModel 解包", link: "/common/solutions/txr_unpack" },
                 { text: "WMMT 1&2 解包", link: "/common/solutions/wmmt1n2_extract" }
             ]
+        },
+        {
+            text: "运维",
+            items: [
+                { text: "Docker - 网页版pgAdmin4解决备份缺少libzstd.so.1的问题", link: "/common/operations/pgadmin4_libzstd_issue" },
+                { text: "Docker - 1Panel网页版pgAdmin4备份文件路径", link: "/common/operations/pgadmin4_backup_path" },
+            ]
         }
     ]
 }
