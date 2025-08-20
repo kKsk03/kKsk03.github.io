@@ -51,7 +51,7 @@ export default defineThemeConfig({
     profile: {
         avatar: 'https://img1.kksk03.site/ng_web/about/about/kKsk.jpg',
         name: 'kKsk',
-        // description: '114514',
+        description: '114514',
         circle: true,
         // location: '',
         // organization: '',
