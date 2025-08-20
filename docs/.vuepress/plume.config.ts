@@ -40,10 +40,10 @@ export default defineThemeConfig({
     // createTime: true, // 是否显示文章创建时间
 
     /* 站点页脚 */
-    // footer: {
-    //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-    //   copyright: '',
-    // },
+    footer: {
+      message: 'Released Under the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\"style=\"color: #de4f7a; text-decoration: underline;\" target=blank>GNU General Public License v3.0</a>.',
+      copyright: 'Copyright © 2023-Present <a href=\"https://github.com/kKsk03\" style=\"color: #de4f7a; text-decoration: underline;\" target=blank>kKsk03</a>',
+    },
 
     /**
      * @see https://theme-plume.vuejs.press/config/basic/#profile
