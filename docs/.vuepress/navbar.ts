@@ -14,6 +14,8 @@ export default defineNavbarConfig([
     {
         text: '笔记',
         icon: 'material-symbols:ink-pen-outline',
-        items: [{ text: '示例', link: '/notes/demo/README.md' }]
+        items: [
+            { text: 'WMMT', link: '/wmmt/fukutoshin/xlt5x6td/' }
+        ]
     },
 ])

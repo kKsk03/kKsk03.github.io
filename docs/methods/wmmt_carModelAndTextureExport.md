@@ -11,7 +11,7 @@ permalink: /article/d3v4vv18/
 - [XMD](https://files.kksk03.site/WMMT/Tools/xmd.exe)  
 - Autodesk 3ds Max
 - [Namco_NDWD_Custom.ms](https://files.kksk03.site/WMMT/Tools/Namco_NDWD_Custom.ms)（3ds Max的脚本文件）  
-- [QuickBMS](https://files.kksk03.site/WMMT/Tools/QuickBMS.7z)  
+- [QuickBMS](https://files.kksk03.site/WMMT/Tools/quickbms.7z)  
 - [NUT2DDS.bms](https://files.kksk03.site/WMMT/Tools/NUT2DDS.bms)  
 
 ## 1. 获取文件
