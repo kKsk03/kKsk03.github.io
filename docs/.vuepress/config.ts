@@ -108,6 +108,7 @@ export default defineUserConfig({
           * @see https://theme-plume.vuejs.press/config/markdown/
           */
         markdown: {
+            codeTree: true,     // 启用代码树
             //   abbr: true,         // 启用 abbr 语法  *[label]: content
             //   annotation: true,   // 启用 annotation 语法  [+label]: content
             //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
