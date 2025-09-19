@@ -157,6 +157,21 @@ A_HIROSHIMA_DAY_NML_HIROSHIMA_SECT108.bin 拆分完成 -> D:\wmmtwork\A_HIROSHIM
 然后在 `out` 文件夹中会出现与 `.bin` 文件名同样的文件夹  
 每个文件夹下就是存放的从 `.bin` 文件夹中解包出来的 `.nud` 文件  
 
+::: warning
+在 `Discord` 的 `Wangan Midnight Emulation` 群组中，`Dax` 认为应该将字符串查找从 `NDWD` 转变为 `NDLX` 。  
+因此可能需要将 `splitFiles.py` 中，`split_marker` 进行更改：  
+
+```python
+# -------- 参数配置 --------
+split_marker = "4E445744"  # 原本是查找的NDWD [!code --]
+split_marker = "4E444C58"  # 现在应查找是NDLX [!code ++]
+number_digits = 1           # 文件编号位数
+suffix = ".nud"             # 输出文件扩展名
+# --------------------------
+```
+
+:::
+
 ### 4.3 导入模型
 
 以 `A_HIROSHIMA_DAY_NML_HIROSHIMA_SECT101` 内的 `.nud` 文件为例  
