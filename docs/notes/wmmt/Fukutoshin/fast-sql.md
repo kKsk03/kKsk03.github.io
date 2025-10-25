@@ -53,6 +53,71 @@ WHERE rn = 1
 ORDER BY result DESC;
 ```
 
+## 查询VSORG最终排名
+
+将返回其最终排名（按车辆），并携带其 `carId` 所属的 `userId`  
+并按最终车辆的成绩进行从大到小的排列  
+需自定义：  
+
+- `g."ghostExpeditionId"`  
+- `LIMIT`  
+
+```sql
+SELECT 
+    g."dbId",
+    g."carId",
+    c."userId",
+    g."ghostExpeditionId",
+    g."sugorokuPoint",
+    g."earnedScore",
+    g."score"
+FROM public."GhostExpedition" AS g
+JOIN public."Car" AS c
+    ON g."carId" = c."carId"
+WHERE 
+    g."ghostExpeditionId" = ?
+    AND c."userId" <> 999999999
+ORDER BY 
+    g."score" DESC
+LIMIT ?;
+```
+
+## 查询VSORG参与玩家
+
+将返回其最终参与情况，并携带其 `carId` 所属的 `userId`  
+每个 `userId` 只会有其 `carId` 中最大的 `score` 的项  
+并按最终的成绩进行从大到小的排列  
+需自定义：  
+
+- `g."ghostExpeditionId"`  
+
+```sql
+SELECT 
+    ROW_NUMBER() OVER (ORDER BY t."score" DESC) AS rank,
+    t.*
+FROM (
+    SELECT DISTINCT ON (c."userId")
+        g."dbId",
+        g."carId",
+        c."userId",
+        g."ghostExpeditionId",
+        g."sugorokuPoint",
+        g."earnedScore",
+        g."score"
+    FROM public."GhostExpedition" AS g
+    JOIN public."Car" AS c
+        ON g."carId" = c."carId"
+    WHERE 
+        g."ghostExpeditionId" = ?
+        AND c."userId" <> 999999999
+    ORDER BY 
+        c."userId",
+        g."score" DESC
+) AS t
+ORDER BY 
+    t."score" DESC;
+```
+
 ## 快速发放奖励
 
 ### Lottery Ticket（ALL）
