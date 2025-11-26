@@ -11,7 +11,7 @@ permalink: /article/yavxeksw/
 ### 依赖
 
 ```sh
-pip install pillow pillow-avif-plugin
+pip install pillow pillow-heif
 ```
 
 ### 脚本
@@ -25,7 +25,10 @@ pip install pillow pillow-avif-plugin
 import os
 import shutil
 from PIL import Image
-import pillow_avif
+import pillow_heif
+
+# 注册 HEIF/AVIF 打开支持
+pillow_heif.register_heif_opener()
 
 def main():
     # 获取当前脚本所在目录
@@ -64,7 +67,7 @@ def main():
         # 2. 转 AVIF
         try:
             with Image.open(src_path) as img:
-                img.save(avif_path, format="AVIF")
+                img.save(avif_path, format="AVIF", quality=90)
             print(f"已生成：{name}.avif")
         except Exception as e:
             print(f"转换失败：{file}，错误：{e}")
@@ -81,4 +84,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 ```
